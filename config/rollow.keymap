@@ -240,9 +240,9 @@ ZMK_BEHAVIOR(dyn_macro_morph, mod_morph,
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-            &kp B     &kp L     &kp D     &kp W     &kp Z     &kp APOS    &kp F     &kp O        &kp U      &kp J 
-            H_LGUI(N) H_LALT(R) H_LCTL(T) H_LSFT(S) &kp G     &kp Y       H_RSFT(H) H_RCTL(A)    H_RALT(E)  H_RGUI(I) 
-            &kp Q     &kp X     &kp M     &kp C     &kp V     &kp K       &kp P     &comma_morph &dot_morph &qmark_morph
+            &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y    &kp U     &kp I        &kp O      &kp P 
+            H_LGUI(A) H_LALT(S) H_LCTL(D) H_LSFT(F) &kp G     &kp H       H_RSFT(J) H_RCTL(K)    H_RALT(L)  H_RGUI(;) 
+            &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N       &kp M     &comma_morph &dot_morph &qmark_morph
                                 &kp C_MUTE SMRT_NUM SK_SHFT   &spc_morph  SMRT_SYM  XXX 
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN  &inc_dec_kp UP DOWN>;
