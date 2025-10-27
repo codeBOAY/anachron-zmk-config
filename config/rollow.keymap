@@ -241,7 +241,7 @@ ZMK_BEHAVIOR(dyn_macro_morph, mod_morph,
         default_layer {
             bindings = <
             &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y    &kp U     &kp I        &kp O      &kp P 
-            H_LGUI(A) H_LALT(S) H_LCTL(D) H_LSFT(F) &kp G     &kp H       H_RSFT(J) H_RCTL(K)    H_RALT(L)  H_RGUI(;) 
+            H_LGUI(A) H_LALT(S) H_LCTL(D) H_LSFT(F) &kp G     &kp H       H_RSFT(J) H_RCTL(K)    H_RALT(L)  H_RGUI(L) 
             &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N       &kp M     &comma_morph &dot_morph &qmark_morph
                                 &kp C_MUTE SMRT_NUM SK_SHFT   &spc_morph  SMRT_SYM  XXX 
             >;
